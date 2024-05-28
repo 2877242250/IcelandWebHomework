@@ -1,0 +1,68 @@
+/* CSS Document */
+
+* {
+	font-family: 'Noto Serif SC', serif;
+}
+
+.bg {
+	background: black
+}
+
+
+
+
+
+.img-bg {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 140px !important;
+	overflow: hidden !important;
+}
+.c-card {
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.0);
+	transition: all 0.2s ease;
+}
+
+.c-card:hover {
+	box-shadow: 0px 5px 12px 2px rgba(0,0,0,0.2);
+	transition: all 0.2s ease;
+}
+
+.card .b-card {
+	transform: scale(1);
+	transition: all 0.4s ease;
+}
+
+.card:hover .b-card {
+	transform: scale(1.1);
+	transition: all 3s ease-out;
+}
+
+.c-card .card-title{
+	background: linear-gradient(0deg,rgba(0,0,0,1) 0%,rgba(0,0,0,1) 100%) no-repeat right bottom;
+	background-size: 0% 100%;
+	transition: background-size 0.6s ease,color 0.5s ease;
+}
+
+.c-card:hover .card-title{
+	color: rgba(255,255,255,1.00);
+	background-position-x: left;
+	background-size: 100% 100%;
+}
+
+  video {
+    position: fixed;
+	  z-index: -1;
+    top: -50px;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 115%;
+    pointer-events: none;
+	filter: blur(0px);
+  }
+
+.text__heading4 {
+	margin-bottom: 20px
+}
